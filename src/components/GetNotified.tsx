@@ -1,6 +1,6 @@
 import { bell } from "../utils/images";
 import ColumnLayout from "./ColumnLayout";
-import Slider from "./Slider";
+import NotificationSlider from "./NotificationSlider";
 import styles from "../styles/GetNotified.module.css";
 
 const GetNotified = () => {
@@ -18,8 +18,8 @@ const GetNotified = () => {
             on-chain or when a dormant whale you care about becomes active.
           </p>
         </div>
-        <div className={styles.slider}>
-          <Slider />
+        <div className={styles.sliderContainer}>
+          <NotificationSlider />
         </div>
       </ColumnLayout>
     </div>

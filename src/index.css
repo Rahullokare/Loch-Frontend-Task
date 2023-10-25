@@ -12,8 +12,8 @@
   --font-gray-color: #96979a;
 
   /* font sizes */
-  --font-body-size: 1.6rem;
-  --font-heading-4-size: 3.1rem;
+  --font-body-size: 16px;
+  --font-heading-4-size: 32px;
 }
 * {
   margin: 0;
@@ -24,4 +24,12 @@
 html {
   /* font-size: 62.5%; */
   scroll-behavior: smooth;
+}
+.bg-gradient {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 27.5%,
+      rgba(22, 93, 255, 0.16) 157.71%
+    ),
+    #fff;
 }

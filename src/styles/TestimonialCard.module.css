@@ -12,8 +12,8 @@
 }
 .cardHeader {
   display: flex;
-  margin-bottom: 2rem;
-  gap: 0.8rem;
+  margin-bottom: 20px;
+  gap: 8px;
 }
 .name {
   color: var(--grey-900, #19191a);
@@ -21,7 +21,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%; /* 19.2px */
+  line-height: 19.2px;
 }
 .jobTitle {
   color: var(--grey-400, #96979a);
@@ -31,9 +31,9 @@
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 15.6px */
+  line-height: 15.6px;
 }
-.testimonialText {
+testimonialText {
   color: var(--text-5, #1d2129);
 
   /* Body */
@@ -41,5 +41,5 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 19.2px */
+  line-height: 19.2px;
 }

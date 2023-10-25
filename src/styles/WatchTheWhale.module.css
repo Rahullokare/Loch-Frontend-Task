@@ -17,16 +17,12 @@
   text-align: right;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 16px;
   flex: 1;
-  padding: 1.7rem 6.2rem 0rem 0rem;
+  padding: 17px 62px 0px 0px; /* Converted from rem to px */
 }
 .flex img {
   margin-left: auto;
-  height: 3.2rem;
-  width: 3.2rem;
-}
-.dashboardImg img {
-  /* width: 33.5rem;
-  height: 30.6rem; */
+  height: 32px;
+  width: 32px;
 }

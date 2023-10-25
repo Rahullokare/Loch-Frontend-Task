@@ -7,16 +7,16 @@
 }
 .container h1 {
   color: var(--grey-300, #b0b1b3);
-  width: 32.6rem;
+  width: 326px;
   /* Heading 3 */
   font-family: Inter;
-  font-size: 3.9rem;
+  font-size: 39px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%; /* 46.8px */
 }
 .container input {
-  margin-top: 3.2rem;
+  margin-top: 32px;
   display: flex;
   width: 340px;
   padding: 20px 24px;
@@ -46,7 +46,7 @@
   /* Add any other styles you want to apply on hover */
 }
 .container input:focus {
-  border: 1px solid red; /* Add your preferred hover styles here */
+  border: 1px solid red; /* Add your preferred focus styles here */
 }
 .message {
   color: var(--grey-900, #19191a);
@@ -58,12 +58,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 19.2px */
-  margin-top: 4.2rem;
+  margin-top: 42px;
 }
 .error {
   color: red;
   text-align: left;
-  margin-top: 1rem;
+  margin-top: 10px;
   /* Button Label */
   font-family: Inter;
   font-size: 16px;
@@ -72,15 +72,15 @@
   line-height: 120%; /* 19.2px */
 }
 .container button {
-  width: 34rem;
-  height: 5.9rem;
+  width: 340px;
+  height: 59px;
   padding: 18px 28px;
   justify-content: center;
   align-items: center;
   color: #fff;
   cursor: pointer;
   text-align: center;
-  margin-top: 2.4rem;
+  margin-top: 24px;
   /* Button Label */
   font-family: Inter;
   font-size: 16px;

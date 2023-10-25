@@ -1,10 +1,13 @@
+/* .container {
+  padding-bottom: 61px;
+} */
 .header {
-  padding: 2.2rem 6rem 4rem 6.1rem;
+  padding: 22px 60px 40px 61px;
 }
 .horizontalLine {
   width: auto;
   height: 1px;
-  margin-top: 2rem;
+  margin-top: 20px;
   background: rgba(229, 229, 230, 0.5);
 }
 .subheading {
@@ -21,9 +24,9 @@
 
 .flex {
   display: flex;
-  padding: 0rem 0rem 6.1rem 6rem;
+  padding: 0 0 61px 60px;
 }
 .logo {
-  width: 6rem;
-  height: 6rem;
+  width: 60px;
+  height: 60px;
 }

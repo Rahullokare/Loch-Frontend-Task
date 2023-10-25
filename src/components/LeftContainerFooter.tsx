@@ -4,7 +4,7 @@ import { lochLogo } from "../utils/images";
 import TestimonialCard from "./TestimonialCard";
 const LeftContainerFooter = () => {
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles.header}>
         <h4 className={styles.subheading}>Testimonials</h4>
         <div className={styles.horizontalLine}></div>
@@ -25,7 +25,7 @@ const LeftContainerFooter = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 
