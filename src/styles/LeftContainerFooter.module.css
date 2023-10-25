@@ -1,0 +1,29 @@
+.header {
+  padding: 2.2rem 6rem 4rem 6.1rem;
+}
+.horizontalLine {
+  width: auto;
+  height: 1px;
+  margin-top: 2rem;
+  background: rgba(229, 229, 230, 0.5);
+}
+.subheading {
+  color: var(--Background---F2F2F2, #f2f2f2);
+  text-align: right;
+
+  /* Heading 5 */
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 30px */
+}
+
+.flex {
+  display: flex;
+  padding: 0rem 0rem 6.1rem 6rem;
+}
+.logo {
+  width: 6rem;
+  height: 6rem;
+}

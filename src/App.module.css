@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex: 1 1;
+  display: flex;
+}
+.mainContainer {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 144rem; */
+}
+@media (min-width: 1500px) {
+  .mainContainer {
+    height: 100vh;
+    max-width: 144.2rem;
+  }
+}

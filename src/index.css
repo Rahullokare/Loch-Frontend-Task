@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+
+  /* CSS Variables */
+  --font-white-color: #f2f2f2;
+  --font-black-color: #1d2129;
+  --font-gray-color: #96979a;
+
+  /* font sizes */
+  --font-body-size: 1.6rem;
+  --font-heading-4-size: 3.1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
