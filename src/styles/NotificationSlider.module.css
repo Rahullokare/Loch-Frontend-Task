@@ -71,6 +71,22 @@
   .container {
     color: #fff;
     display: flex;
+    width: 340px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    color: #fff;
+    display: flex;
+    width: 330px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 340px) {
+  .container {
+    color: #fff;
+    display: flex;
     width: 320px;
     overflow: hidden;
   }

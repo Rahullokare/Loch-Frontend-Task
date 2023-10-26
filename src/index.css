@@ -52,3 +52,12 @@ html {
 .swiper-slide:nth-child(3n) {
   width: 40%;
 }
+@media (max-width: 400px) {
+  :root {
+    --font-body-size: 16px;
+    --font-heading-4-size: 28px;
+  }
+  .lineBreak {
+    display: none;
+  }
+}
