@@ -14,9 +14,11 @@ const GetExclusiveAccess = () => {
         <Modal open={open}>
           <div className={styles.modal}>
             <div className={styles.modalHeader}>
-              <button onClick={() => setOpen(false)}>
-                <img src={closeBtn} alt="Close Button" />
-              </button>
+              <img
+                src={closeBtn}
+                onClick={() => setOpen(false)}
+                alt="Close Button"
+              />
             </div>
             <h1>Sign up for exclusive access.</h1>
             <EmailForm />

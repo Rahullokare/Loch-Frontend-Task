@@ -12,6 +12,8 @@
   .modal {
     background-color: #fff;
     padding: 1rem;
+    width: 90%;
+    border-radius: 12px;
   }
   .modalHeader {
     display: flex;
@@ -26,7 +28,7 @@
     color: #fff;
     cursor: pointer;
     text-align: center;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     /* Button Label */
     font-family: Inter;
     font-size: 16px;
@@ -55,7 +57,7 @@
     width: 326px;
     /* Heading 3 */
     font-family: Inter;
-    font-size: 39px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 46.8px */

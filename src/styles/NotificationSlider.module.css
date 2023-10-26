@@ -59,3 +59,11 @@
   height: 14px; /* Set the height of the checkbox */
   border-radius: 4.2px; /* Apply a circular border radius to create a rounded checkbox */
 }
+@media (max-width: 900px) {
+  .container {
+    color: #fff;
+    display: flex;
+    width: 350px;
+    overflow: hidden;
+  }
+}

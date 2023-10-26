@@ -22,16 +22,16 @@ const NotificationSlider = () => {
   const breakpoints = {
     // Define breakpoints and their settings
     320: {
-      slidesPerView: 1.7,
-      spaceBetween: 0,
+      slidesPerView: 1.8,
+      spaceBetween: 10,
     },
     640: {
       slidesPerView: 1.7,
-      spaceBetween: 0,
+      spaceBetween: 10,
     },
     768: {
       slidesPerView: 1.8,
-      spaceBetween: 40,
+      spaceBetween: 10,
     },
     1024: {
       slidesPerView: 1.8,
@@ -52,7 +52,6 @@ const NotificationSlider = () => {
 
       <Swiper
         breakpoints={breakpoints}
-        spaceBetween={0}
         loop={true}
         keyboard={{
           enabled: true,
