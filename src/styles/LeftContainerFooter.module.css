@@ -36,3 +36,28 @@
   width: 700px;
   /* overflow: hidden; */
 }
+@media (max-width: 1200px) {
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column-reverse;
+    padding: 0 0 16px 16px;
+  }
+  .logo {
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+  .header {
+    padding: 22px 16px 40px 16px;
+  }
+}
+@media (min-width: 1500px) {
+  .slider {
+    width: 900px;
+    overflow: hidden;
+  }
+}

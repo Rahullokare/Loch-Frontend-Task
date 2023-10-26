@@ -30,3 +30,14 @@
   padding: 92px 0px 84.5px 46px;
   flex: 1;
 }
+@media (max-width: 850px) {
+  .flex {
+    padding: 8px 0px 10px 16px;
+
+    flex: 1;
+  }
+  .sliderContainer {
+    padding: 40px 16px 40px 16px;
+    flex: 1;
+  }
+}

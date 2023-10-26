@@ -10,11 +10,13 @@ const GetNotified = () => {
         <div className={styles.flex}>
           <img src={bell} alt="Bell Icon" title="Bell Icon" />
           <h4 className={styles.subHeading}>
-            Get notified when a highly correlated whale makes a move
+            Get notified when a <br /> highly correlated <br /> whale makes a
+            move
           </h4>
           <p className={styles.bodyText}>
-            Find out when a certain whale moves more than any preset amount
-            on-chain or when a dormant whale you care about becomes active.
+            Find out when a certain whale moves more <br /> than any preset
+            amount on-chain or when a <br /> dormant whale you care about
+            becomes active.
           </p>
         </div>
         <div className={styles.sliderContainer}>

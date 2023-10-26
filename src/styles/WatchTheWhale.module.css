@@ -34,3 +34,20 @@
 .flexImg {
   padding: 0px 0px 0px 60px;
 }
+@media (max-width: 850px) {
+  .flex {
+    text-align: left;
+  }
+  .flex img {
+    margin-left: 0;
+    height: 32px;
+    width: 32px;
+  }
+  .flexImg {
+    padding: 0px 16px 0px 16px;
+  }
+  .flexImg img {
+    height: auto;
+    width: 100%;
+  }
+}

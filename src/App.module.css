@@ -1,11 +1,10 @@
 .container {
   display: flex;
-  flex: 1 1;
 
   width: 100%;
 }
-/* @media (min-width: 1440px) {
+@media (max-width: 1200px) {
   .container {
-    height: 100dvh;
+    display: block;
   }
-} */
+}

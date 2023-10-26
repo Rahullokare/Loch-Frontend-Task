@@ -14,6 +14,34 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay } from "swiper/modules";
 const LeftContainerFooter = () => {
+  const breakpoints = {
+    // Define breakpoints and their settings
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 1.8,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 1.8,
+      spaceBetween: 50,
+    },
+    1424: {
+      slidesPerView: 1.9,
+      spaceBetween: 50,
+    },
+    1624: {
+      slidesPerView: 1.9,
+      spaceBetween: 50,
+    },
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -27,13 +55,9 @@ const LeftContainerFooter = () => {
         </div>
         <div className={styles.slider}>
           <Swiper
-            slidesPerView={2}
+            breakpoints={breakpoints}
             spaceBetween={10}
             centeredSlides={true}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
             modules={[Autoplay]}
             className="mySwiper"
           >
