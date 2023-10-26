@@ -18,14 +18,14 @@ const LeftContainerFooter = () => {
     // Define breakpoints and their settings
     320: {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 10,
     },
     640: {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 10,
     },
     768: {
-      slidesPerView: 1.8,
+      slidesPerView: 1,
       spaceBetween: 40,
     },
     1024: {

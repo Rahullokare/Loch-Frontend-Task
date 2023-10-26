@@ -67,3 +67,11 @@
     overflow: hidden;
   }
 }
+@media (max-width: 360px) {
+  .container {
+    color: #fff;
+    display: flex;
+    width: 320px;
+    overflow: hidden;
+  }
+}
