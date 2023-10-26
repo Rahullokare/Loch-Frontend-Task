@@ -14,13 +14,14 @@
 .cardHeader {
   display: flex;
   margin-bottom: 20px;
+  align-items: center;
   gap: 8px;
 }
 .name {
   color: var(--grey-900, #19191a);
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
+
+  font-size: var(--font-body-size);
+
   font-weight: 600;
   line-height: 19.2px;
 }
@@ -28,9 +29,9 @@
   color: var(--grey-400, #96979a);
 
   /* Caption */
-  font-family: Inter;
+
   font-size: 13px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 15.6px;
 }
@@ -38,9 +39,17 @@
   color: #1d2129;
   flex: 1;
   /* Body */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
+
+  font-size: var(--font-body-size);
+
   font-weight: 500;
   line-height: 19.2px;
+}
+@media (max-width: 768px) {
+  .jobTitle {
+    font-size: 10px;
+  }
+  .cardHeader {
+    align-items: center;
+  }
 }

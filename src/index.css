@@ -54,7 +54,7 @@ html {
 }
 @media (max-width: 400px) {
   :root {
-    --font-body-size: 16px;
+    --font-body-size: 14px;
     --font-heading-4-size: 28px;
   }
   .lineBreak {

@@ -48,8 +48,7 @@ const NotificationSlider = () => {
   };
   return (
     <div className={styles.container}>
-      <div className={styles.bg}>&nbsp;</div>
-
+      <div className={styles.blackOverlay}></div>
       <Swiper
         breakpoints={breakpoints}
         loop={true}
@@ -114,6 +113,7 @@ const NotificationSlider = () => {
             </p>
           </SliderCard>
         </SwiperSlide>
+        <div className={styles.rightOverlay}></div>
       </Swiper>
     </div>
   );

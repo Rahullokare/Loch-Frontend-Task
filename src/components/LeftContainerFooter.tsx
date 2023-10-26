@@ -21,24 +21,24 @@ const LeftContainerFooter = () => {
       spaceBetween: 10,
     },
     640: {
-      slidesPerView: 1,
+      slidesPerView: 1.4,
       spaceBetween: 10,
     },
     768: {
-      slidesPerView: 1,
-      spaceBetween: 40,
+      slidesPerView: 1.8,
+      spaceBetween: 10,
     },
     1024: {
       slidesPerView: 1.8,
-      spaceBetween: 50,
+      spaceBetween: 10,
     },
     1424: {
       slidesPerView: 1.9,
-      spaceBetween: 50,
+      spaceBetween: 10,
     },
     1624: {
       slidesPerView: 1.9,
-      spaceBetween: 50,
+      spaceBetween: 20,
     },
   };
 
