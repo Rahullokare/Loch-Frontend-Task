@@ -19,11 +19,39 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay } from "swiper/modules";
 const NotificationSlider = () => {
+  const breakpoints = {
+    // Define breakpoints and their settings
+    320: {
+      slidesPerView: 1.7,
+      spaceBetween: 0,
+    },
+    640: {
+      slidesPerView: 1.7,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 1.8,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 1.8,
+      spaceBetween: 0,
+    },
+    1424: {
+      slidesPerView: 1.9,
+      spaceBetween: 0,
+    },
+    1624: {
+      slidesPerView: 1.9,
+      spaceBetween: 0,
+    },
+  };
   return (
     <div className={styles.container}>
       <div className={styles.bg}>&nbsp;</div>
+
       <Swiper
-        slidesPerView={1.9}
+        breakpoints={breakpoints}
         spaceBetween={0}
         loop={true}
         keyboard={{

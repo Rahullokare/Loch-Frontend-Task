@@ -4,6 +4,7 @@ import barChart2 from "../assets/svg/bar-chart-2.svg";
 import eye from "../assets/svg/Eye.svg";
 import clock from "../assets/svg/clock.svg";
 import checkbox from "../assets/svg/checkbox.svg";
+import closeBtn from "../assets/svg/closeBtn.svg";
 import lochLogo from "../assets/svg/loch-logo.svg";
 import cohorts from "../assets/Cohorts.png";
 import traingleDown from "../assets/svg/triangle-down.svg";
@@ -18,4 +19,5 @@ export {
   cohorts,
   traingleDown,
   checkbox,
+  closeBtn,
 };
