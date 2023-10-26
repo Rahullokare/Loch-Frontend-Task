@@ -12,7 +12,7 @@ const LeftContainerFooter = () => {
 
       <div className={styles.flex}>
         <div className={styles.logo}>
-          <img src={lochLogo} alt="" />
+          <img src={lochLogo} alt="Loch Logo" title="Loch Logo" />
         </div>
         {testimonialData.map((d: any, id: any) => {
           return (

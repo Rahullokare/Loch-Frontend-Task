@@ -6,7 +6,6 @@ import styles from "../styles/GetNotified.module.css";
 const GetNotified = () => {
   return (
     <div>
-      {" "}
       <ColumnLayout>
         <div className={styles.flex}>
           <img src={bell} alt="Bell Icon" title="Bell Icon" />

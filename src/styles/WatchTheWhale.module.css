@@ -19,10 +19,18 @@
   flex-direction: column;
   gap: 16px;
   flex: 1;
-  padding: 17px 62px 0px 0px; /* Converted from rem to px */
+  padding: 17px 62px 0px 38px; /* Converted from rem to px */
 }
 .flex img {
   margin-left: auto;
   height: 32px;
   width: 32px;
+}
+.dashboardImg {
+  border-radius: 12px;
+  width: 335px;
+  height: 306px;
+}
+.flexImg {
+  padding: 0px 0px 0px 60px;
 }

@@ -1,3 +1,10 @@
+.flex {
+  padding: 86px 0px 72px 61px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
 /* Get Notified CSS */
 .subHeading {
   font-size: var(--font-heading-4-size);
@@ -14,13 +21,6 @@
   line-height: 120%;
   opacity: 0.7;
   padding-right: 13px;
-}
-.flex {
-  padding: 86px 0px 72px 61px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  flex: 1;
 }
 .flex img {
   height: 32px;

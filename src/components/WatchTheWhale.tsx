@@ -5,11 +5,16 @@ import styles from "../styles/WatchTheWhale.module.css";
 const WatchTheWhale = () => {
   return (
     <div>
-      {" "}
       <ColumnLayout>
-        <div className={styles.dashboardImg}>
-          <img src={cohorts} alt="Dashboard Image" title="Dashboard Image" />
+        <div className={styles.flexImg}>
+          <img
+            className={styles.dashboardImg}
+            src={cohorts}
+            alt="Dashboard Image"
+            title="Dashboard Image"
+          />
         </div>
+
         <div className={styles.flex}>
           <img src={eye} alt="Bell Icon" title="Bell Icon" />
           <h4 className={styles.subHeading}>Watch what the whales are doing</h4>
